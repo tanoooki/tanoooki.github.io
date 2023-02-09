@@ -82,6 +82,45 @@
     padding: 5px 10px;
 }
 
+.botao-html {
+    border: 1px solid #ff7700;
+}
+.botao-html:hover {
+    background:#ff7700 ;
+}
+
+.botao-css {
+    border: 1px solid #519aba;
+}
+
+.botao-css:hover {
+    background:#519aba ;
+}
+
+.botao-java {
+    border: 1px solid #cbbe32;
+}
+
+.botao-java:hover {
+    background: #cbbe32;
+}
+
+.botao-ux {
+    border: 1px solid #8872a2;
+}
+
+.botao-ux:hover {
+    background: #8872a2;
+}
+
+.botao-ui {
+    border: 1px solid #8872a2;
+}
+
+.botao-ui:hover {
+    background: #8872a2;
+}
+
 @media (max-width: 800px) {
     .experiencia {
         grid-template-columns: 1fr;
