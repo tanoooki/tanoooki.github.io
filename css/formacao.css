@@ -57,6 +57,10 @@
     flex-direction: column;
 }
 
+.faculdade:hover {
+    background: #2b2b2b ;
+}
+
 .faculdade-tipo {
     font-size: 0.875rem;
     text-transform: uppercase;

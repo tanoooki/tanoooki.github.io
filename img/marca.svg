@@ -5,6 +5,7 @@
         font-size: 12.107px;
         font-family: "Nirmala UI";
         font-weight: 700;
+        fill: #a3a3a3;
       }
 
       .cls-2 {
@@ -14,5 +15,5 @@
     </style>
   </defs>
   <text id="Tanoooki" class="cls-1" transform="translate(4.989 35.767) scale(3.65)">Tanoooki</text>
-  <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do" class="cls-2" x="391" y="-232">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </text>
+  <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do" class="cls-2" x="391" y="-232">Tanooki</text>
 </svg>
