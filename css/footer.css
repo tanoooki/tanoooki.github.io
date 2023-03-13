@@ -1,3 +1,4 @@
+
 .footer {
     background: #000000;
 }
@@ -28,12 +29,14 @@
 
 .footer-contato li a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .footer-copy {
     font-size: 1.125rem;
     color: #8f8f8f;
     grid-column: 1 / -1;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
