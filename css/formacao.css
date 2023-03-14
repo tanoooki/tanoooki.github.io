@@ -94,6 +94,7 @@
 
 .cursos {
     margin-bottom: 60px;
+    position: relative;
 }
 
 .formacao-extra h3{
@@ -119,6 +120,13 @@
     background: url(../img/cursos.svg) no-repeat center center;
 }
 
+.cursos h3::after {
+    content:"clique para ver";
+    position: absolute;
+    right: 0px;
+    font-size: .8rem;
+}
+
 .idiomas h3::before {
     background: url(../img/idiomas.svg) no-repeat center center;
 }
@@ -126,7 +134,8 @@
 .formacao-extra li{
     font-size: 1.125rem;
     line-height: 1.1;
-    margin-bottom: 20px;
+    margin: 5px 0px 5px 0px;
+    align-content: center;
 }
 
 .formacao-extra span{
@@ -136,8 +145,28 @@
 .cursos li{
     display: flex;
     justify-content: space-between;
+    align-content: center;
+
 }
 
+
+.certificados {
+    display: block;
+    background: #000000;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.cursos a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.certificados:hover {
+    background: #2b2b2b ;
+    cursor: pointer;
+}
 @media (max-width: 800px) {
     .formacao-container {
         grid-template-columns: 1fr;
@@ -154,4 +183,10 @@
         position: initial;
         margin-bottom: 10px;
     }
+}
+
+@media (max-width:600px) {
+    .cursos h3::after {
+        display: none;
+}
 }
