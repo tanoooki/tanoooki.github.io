@@ -16,3 +16,6 @@ function scrollToIdOnClick(event) {
         behavior: "smooth"
     });
 }
+if (window.SimpleAnime) {
+new SimpleAnime();
+}
