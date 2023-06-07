@@ -28,6 +28,10 @@ img {
     max-width: 4ch;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (max-width: 800px) {
  .subtitulo {
     font-size: 3rem;
