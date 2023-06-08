@@ -7,6 +7,11 @@
     gap: 100px;
 }
 
+.experiencia a:visited {
+    color: #141414;
+
+}
+
 .experiencia .subtitulo {
     color: #e0e0e0;
 }
@@ -32,6 +37,11 @@
     margin-bottom: 20px;
     border-radius: 4px ;
     position: relative;
+    border: 1px solid #fff;
+}
+
+.empresa:hover {
+    border: 1px solid #b6f829;
 }
 
 .empresa-ano {

@@ -32,10 +32,23 @@
     text-decoration: none;
     color: #a3a3a3;
     display: block;
+    position: relative;
 }
 
-svg {
-    color: red;
+.header-menu a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: white;
+    margin-top: 4px;
+    transition: .3s;
+    position: absolute;
+}
+
+.header-menu a:hover::after, .header-menu a.ativo::after {
+    width: 70%;
+
 }
 
 @media (max-width:700px) {
@@ -49,6 +62,9 @@ svg {
         border-radius: 4px;
     }
     .header::after {
-    display: none;
+        display: none;
+    }
+    .header-menu a::after {
+        display: none;
     }
 }
