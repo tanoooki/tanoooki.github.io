@@ -23,6 +23,14 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    position: relative;
+}
+
+.header-menu::after {
+    content: "Augusto Schritke de Jesus";
+    color: #a3a3a3;
+    position: absolute;
+    display: none;
 }
 
 .header-menu a{
@@ -66,5 +74,9 @@
     }
     .header-menu a::after {
         display: none;
+    }
+    .header-menu::after {
+        display: block;
+        top: -30px;
     }
 }

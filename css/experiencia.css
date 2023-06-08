@@ -7,7 +7,7 @@
     gap: 100px;
 }
 
-.experiencia a:visited {
+.experiencia a:visited, .experiencia a:link {
     color: #141414;
 
 }
