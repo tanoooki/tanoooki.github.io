@@ -19,9 +19,10 @@
 .experiencia-texto {
     font-size: 1.5rem;
     line-height: 1.33;
-    max-width: 40ch;
+    max-width: 44ch;
     margin-bottom: 60px;
     color: #525252;
+
 }
 
 .experiencia-texto strong {
