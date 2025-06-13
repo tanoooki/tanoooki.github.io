@@ -65,9 +65,6 @@ a {
     width: 50%;
 }
 
-.flex {
-    display: flex;
-}
 
 @media (max-width: 700px) {
   .header {

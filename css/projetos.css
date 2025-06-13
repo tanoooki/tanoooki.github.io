@@ -46,7 +46,7 @@
     border: 1px solid #ffd700;
 }
 
-.empresa-ano {
+.projeto-ano {
     position: absolute;
     top: 22px;
     left: -100px;
@@ -145,14 +145,14 @@
     .projetos-texto {
         font-size: 1.25rem;
     }
-    .empresa-ano {
+    .projeto-ano {
         position: initial;
         width: initial;
         order: 1;
         text-align: left;
     }
 }
-    .empresa-ano::before {
+    .projeto-ano::before {
         content: "Ano: ";
     }
     

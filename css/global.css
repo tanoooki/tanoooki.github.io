@@ -35,6 +35,20 @@ a {
 .pt-2 {
     padding-top: 2rem;
 }
+
+
+.flex {
+    display: flex;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.align-center {
+    align-items: center;
+}
+
 @media (max-width: 800px) {
  .subtitulo {
     font-size: 3rem;
