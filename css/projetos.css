@@ -1,32 +1,23 @@
-.experiencia {
-
-    background: black;
-}
-
-.experiencia-container {
+.projetos {
     max-width: 1200px;
-    padding: 120px 20px;
+    padding: 40px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
-    position: relative;
 }
 
-.subtitulo-experiencia {
-    font-size: 6rem;
-    line-height: 1;
-    word-break: break-all;
-    text-transform: uppercase;
-    max-width: 6ch;
-    color: #f5f5f5;
-}
-
-.experiencia a:visited, .experiencia a:link {
+.projetos a:visited, .projetos a:link {
     color: #141414;
 }
 
-.experiencia-texto {
+
+
+.projetos .subtitulo {
+    color: #e0e0e0;
+}
+
+.projetos-texto {
     font-size: 1.5rem;
     line-height: 1.33;
     max-width: 44ch;
@@ -35,7 +26,7 @@
 
 }
 
-.experiencia-texto strong {
+.projetos-texto strong {
     color: #141414;
 }
 
@@ -103,14 +94,6 @@
     background: white;
     padding: 5px 10px;
 }
-.botao-vue {
-    border: 1px solid #42B883;
-}
-.botao-vue:hover {
-    background:#42B883 ;
-}
-
-
 
 .botao-html {
     border: 1px solid #ff7700;
@@ -126,15 +109,6 @@
 .botao-css:hover {
     background:#519aba ;
 }
-
-.botao-tailwind {
-    border: 1px solid #18b4d1;
-}
-
-.botao-tailwind:hover {
-    background:#18b4d1 ;
-}
-
 
 .botao-java {
     border: 1px solid #cbbe32;
@@ -161,14 +135,14 @@
 }
 
 @media (max-width: 800px) {
-    .experiencia {
+    .projetos {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    .experiencia .subtitulo{
+    .projetos .subtitulo{
         color: #141414;
     }
-    .experiencia-texto {
+    .projetos-texto {
         font-size: 1.25rem;
     }
     .empresa-ano {

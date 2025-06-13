@@ -16,31 +16,71 @@
 </head>
 
 <body>
-    <header class="header">
-        <img src="./img/marca.svg" alt="Lobo" width="200" height="38">
+    <header class="header" aria-label="Cabeçalho">
+        <h1><a href="#header">Augusto Schritke de Jesus</a></h1>
         <nav>
             <ul class="header-menu">
-                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#profissional">Profissional</a></li>
+                <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#formacao">Formação</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="introducao">
+    <main class="introducao" id="header">
         <img data-anime="200" class="fadeInLeft" src="./img/perfil.png" alt="Augusto" width="360px" height="520px">
         <div>
-            <h1 class="fadeInDown" data-anime="400">Desenvolvedor<br>Front End &<br>UX/UI Designer</h1>
-            <p class="fadeInDown" data-anime="600">Localizado em Curitiba - PR</p>
+            <h1 class="fadeInDown" data-anime="400">Desenvolvedor<br>Frontend &<br>UX/UI Designer</h1>
+            <p class="fadeInDown" data-anime="600">Curitiba - PR</p>
+            <span class="experiencia-texto fadeInDown pt-2" data-anime="1000"><br>Desenvolvedor <b>Frontend</b> com
+                experiência
+                em Vue.js 3. <br> <br>
+
+                Além de Desenvolvedor, possuo experiência em gestão administrativa e
+                atendimento ao cliente. Desde coordenação de serviços até
+                gerenciamento de operações financeiras.
+            </span>
         </div>
     </main>
 
+
     <section class="experiencia" id="experiencia" aria-label="Experiência">
-        <h2 class="subtitulo fadeInLeft" data-anime="800">Experiência</h2>
+        <div class="experiencia-container">
+
+            <h2 class="subtitulo-experiencia fadeInLeft" data-anime="800">Profissional</h2>
+            <div>
+                <a href="https://www.linkedin.com/company/smart-citizen-software/posts/?feedView=all" target="_blank">
+                    <div class="empresa fadeInDown" data-anime="1200">
+                        <span class="empresa-ano">2023 - Atualmente</span>
+                        <h3 class="empresa-titulo">Smart Citizen Software</h3>
+                        <span class="empresa-titulo">Desenvolvedor Frontend</span>
+                        <p class="empresa-texto">Construção e manutenção de componentes e views para os
+                            apps AMA Social, Cidi Comunidades, Cidi Gestão, Zeladoria Digital, DailyDo
+                            e Fiscaliza TCE-PR – Parceiros e Fiscaliza TCE-PR – Auditores.<br>Além de
+                            realizar Testes Unitários, suporte a erros e bugs.<br>Desenvolvimento de Mapas no sistema utilizando tecnologias de Geoprocessamento.</p>
+                        <ul class="empresa-habilidades">
+                            <li class="botao-vue">VueJs</li>
+                            <li class="botao-html">HTML</li>
+                            <li class="botao-css">CSS</li>
+                            <li class="botao-tailwind">Tailwind CSS </li>
+                            <li class="botao-java">JavaScript</li>
+                            <li class="botao-ux">UX Design</li>
+                            <li class="botao-ui">UI Design</li>
+                        </ul>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="projetos" id="projetos" aria-label="Experiência">
+        <h2 class="subtitulo fadeInLeft" data-anime="800">Projetos</h2>
         <div>
-            <p class="experiencia-texto fadeInDown" data-anime="1000">Buscando agora uma oportunidade para o <strong>Front-end</strong> e <strong>Back-end</strong>,
-                estou buscando aperfeiçoar minhas habilidades.
-            </p>
             <a href="https://tanoooki.github.io/projeto-final-bikcraft/" target="_blank">
                 <div class="empresa fadeInDown" data-anime="1200">
                     <span class="empresa-ano">2022</span>
@@ -98,7 +138,8 @@
                     <span class="empresa-ano">2023</span>
                     <h3 class="empresa-titulo">Newsletter Template</h3>
                     <span class="empresa-titulo">Desenvolvedor Junior</span>
-                    <p class="empresa-texto">Desafio realizado através do site <i>Codewell</i>, utilizando HTML e CSS.</p>
+                    <p class="empresa-texto">Desafio realizado através do site <i>Codewell</i>, utilizando HTML e CSS.
+                    </p>
                     <ul class="empresa-habilidades">
                         <li class="botao-html">HTML</li>
                         <li class="botao-css"> CSS</li>
@@ -111,7 +152,8 @@
                     <span class="empresa-ano">2023</span>
                     <h3 class="empresa-titulo">Meeet Template</h3>
                     <span class="empresa-titulo">Desenvolvedor Junior</span>
-                    <p class="empresa-texto">Desafio realizado através do site <i>Codewell</i>, utilizando HTML e CSS.</p>
+                    <p class="empresa-texto">Desafio realizado através do site <i>Codewell</i>, utilizando HTML e CSS.
+                    </p>
                     <ul class="empresa-habilidades">
                         <li class="botao-html">HTML</li>
                         <li class="botao-css"> CSS</li>
@@ -134,7 +176,7 @@
                 </div>
             </a>
 
-            
+
             <a href="https://tanoooki.github.io/portfolio_template/" target="_blank">
                 <div class="empresa fadeInDown" data-anime="1800">
                     <span class="empresa-ano">2023</span>
@@ -155,7 +197,8 @@
                     <span class="empresa-ano">2023</span>
                     <h3 class="empresa-titulo">FlexBlog</h3>
                     <span class="empresa-titulo">Desenvolvedor Junior</span>
-                    <p class="empresa-texto">Exercício realizado para o curso de CSS FlexBox da <i>Origamid</i>, utilizando HTML e CSS.</p>
+                    <p class="empresa-texto">Exercício realizado para o curso de CSS FlexBox da <i>Origamid</i>,
+                        utilizando HTML e CSS.</p>
                     <ul class="empresa-habilidades">
                         <li class="botao-html">HTML</li>
                         <li class="botao-css"> CSS</li>
@@ -167,7 +210,8 @@
                     <span class="empresa-ano">2023</span>
                     <h3 class="empresa-titulo">ButtonCreator</h3>
                     <span class="empresa-titulo">Desenvolvedor Junior</span>
-                    <p class="empresa-texto">Exercício realizado para o curso JavaScript da <i>Origamid</i>, utilizando HTML, CSS e JavaScript, contando também com o LocalStorage para manter seu botão salvo</p>
+                    <p class="empresa-texto">Exercício realizado para o curso JavaScript da <i>Origamid</i>, utilizando
+                        HTML, CSS e JavaScript, contando também com o LocalStorage para manter seu botão salvo</p>
                     <ul class="empresa-habilidades">
                         <li class="botao-html">HTML</li>
                         <li class="botao-css"> CSS</li>
@@ -190,14 +234,13 @@
                 <ul class="faculdade-lista fadeInDown" data-anime="1200">
                     <li class="faculdade">
                         <span class="faculdade-tipo">Bacharel e Licenciatura</span>
-                        <h3 class="faculdade-curso">Geografia</h3>
+                        <div class="flex">
+                            <h3 class="faculdade-curso">Geografia</h3>
+                            <h3>2012 - 2016</h3>
+                        </div>
                         <span class="faculdade-instituicao">UFPR</span>
                     </li>
-                    <li class="faculdade">
-                        <span class="faculdade-tipo">Tecnólogo (em andamento)</span>
-                        <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
-                        <span class="faculdade-instituicao">Univali</span>
-                    </li>
+
                 </ul>
 
                 <div class="formacao-extra">
@@ -215,7 +258,7 @@
                                     <li>HTML e CSS para Iniciantes <span>46h</span></li>
                                 </div>
                             </a>
-                            
+
                             <a href="./certificados/FLEXBOX-1.pdf" target="blank">
                                 <div class="certificados">
                                     <li>CSS FlexBox <span>6h</span></li>
